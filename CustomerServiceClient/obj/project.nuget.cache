@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mOR/SPMfCKB3JUenpOFsfF0W2iEu1Ug9rRc3ZRJW6oFdj1eKiGujsxT5lr6M+RSI+4bSSMJvfTvmU5Bx3tIvmw==",
+  "success": true,
+  "projectFilePath": "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sagar.kumar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\sagar.kumar\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\sagar.kumar\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\sagar.kumar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

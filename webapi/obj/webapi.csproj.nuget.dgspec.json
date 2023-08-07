@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VrtStudy\\FieldEdge\\webapi\\webapi.csproj": {}
+    "D:\\FieldEdge\\FieldEdge\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "D:\\VrtStudy\\CustomerServiceClient\\CustomerServiceClient.csproj": {
+    "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VrtStudy\\CustomerServiceClient\\CustomerServiceClient.csproj",
+        "projectUniqueName": "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj",
         "projectName": "CustomerServiceClient",
-        "projectPath": "D:\\VrtStudy\\CustomerServiceClient\\CustomerServiceClient.csproj",
+        "projectPath": "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj",
         "packagesPath": "C:\\Users\\sagar.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\VrtStudy\\CustomerServiceClient\\obj\\",
+        "outputPath": "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\VrtStudy\\ModelDto\\ModelDto.csproj": {
-                "projectPath": "D:\\VrtStudy\\ModelDto\\ModelDto.csproj"
+              "D:\\FieldEdge\\FieldEdge\\ModelDto\\ModelDto.csproj": {
+                "projectPath": "D:\\FieldEdge\\FieldEdge\\ModelDto\\ModelDto.csproj"
               }
             }
           }
@@ -77,14 +77,73 @@
         }
       }
     },
-    "D:\\VrtStudy\\FieldEdge\\webapi\\webapi.csproj": {
+    "D:\\FieldEdge\\FieldEdge\\ModelDto\\ModelDto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VrtStudy\\FieldEdge\\webapi\\webapi.csproj",
-        "projectName": "webapi",
-        "projectPath": "D:\\VrtStudy\\FieldEdge\\webapi\\webapi.csproj",
+        "projectUniqueName": "D:\\FieldEdge\\FieldEdge\\ModelDto\\ModelDto.csproj",
+        "projectName": "ModelDto",
+        "projectPath": "D:\\FieldEdge\\FieldEdge\\ModelDto\\ModelDto.csproj",
         "packagesPath": "C:\\Users\\sagar.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\VrtStudy\\FieldEdge\\webapi\\obj\\",
+        "outputPath": "D:\\FieldEdge\\FieldEdge\\ModelDto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sagar.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.legalzoom.com/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\FieldEdge\\FieldEdge\\webapi\\webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FieldEdge\\FieldEdge\\webapi\\webapi.csproj",
+        "projectName": "webapi",
+        "projectPath": "D:\\FieldEdge\\FieldEdge\\webapi\\webapi.csproj",
+        "packagesPath": "C:\\Users\\sagar.kumar\\.nuget\\packages\\",
+        "outputPath": "D:\\FieldEdge\\FieldEdge\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,8 +165,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\VrtStudy\\CustomerServiceClient\\CustomerServiceClient.csproj": {
-                "projectPath": "D:\\VrtStudy\\CustomerServiceClient\\CustomerServiceClient.csproj"
+              "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj": {
+                "projectPath": "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj"
               }
             }
           }
@@ -154,65 +213,6 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\VrtStudy\\ModelDto\\ModelDto.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\VrtStudy\\ModelDto\\ModelDto.csproj",
-        "projectName": "ModelDto",
-        "projectPath": "D:\\VrtStudy\\ModelDto\\ModelDto.csproj",
-        "packagesPath": "C:\\Users\\sagar.kumar\\.nuget\\packages\\",
-        "outputPath": "D:\\VrtStudy\\ModelDto\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\sagar.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://artifactory.legalzoom.com/artifactory/api/nuget/nuget": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

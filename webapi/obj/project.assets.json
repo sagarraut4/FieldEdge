@@ -877,13 +877,13 @@
     },
     "CustomerServiceClient/1.0.0": {
       "type": "project",
-      "path": "../../CustomerServiceClient/CustomerServiceClient.csproj",
-      "msbuildProject": "../../CustomerServiceClient/CustomerServiceClient.csproj"
+      "path": "../CustomerServiceClient/CustomerServiceClient.csproj",
+      "msbuildProject": "../CustomerServiceClient/CustomerServiceClient.csproj"
     },
     "ModelDto/1.0.0": {
       "type": "project",
-      "path": "../../ModelDto/ModelDto.csproj",
-      "msbuildProject": "../../ModelDto/ModelDto.csproj"
+      "path": "../ModelDto/ModelDto.csproj",
+      "msbuildProject": "../ModelDto/ModelDto.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -902,11 +902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VrtStudy\\FieldEdge\\webapi\\webapi.csproj",
+      "projectUniqueName": "D:\\FieldEdge\\FieldEdge\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "D:\\VrtStudy\\FieldEdge\\webapi\\webapi.csproj",
+      "projectPath": "D:\\FieldEdge\\FieldEdge\\webapi\\webapi.csproj",
       "packagesPath": "C:\\Users\\sagar.kumar\\.nuget\\packages\\",
-      "outputPath": "D:\\VrtStudy\\FieldEdge\\webapi\\obj\\",
+      "outputPath": "D:\\FieldEdge\\FieldEdge\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -928,8 +928,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\VrtStudy\\CustomerServiceClient\\CustomerServiceClient.csproj": {
-              "projectPath": "D:\\VrtStudy\\CustomerServiceClient\\CustomerServiceClient.csproj"
+            "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj": {
+              "projectPath": "D:\\FieldEdge\\FieldEdge\\CustomerServiceClient\\CustomerServiceClient.csproj"
             }
           }
         }

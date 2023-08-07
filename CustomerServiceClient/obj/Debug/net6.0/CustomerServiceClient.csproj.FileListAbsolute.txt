@@ -1,0 +1,15 @@
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.csproj.AssemblyReference.cache
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.AssemblyInfoInputs.cache
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.AssemblyInfo.cs
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.csproj.CoreCompileInputs.cache
+D:\FieldEdge\FieldEdge\CustomerServiceClient\bin\Debug\net6.0\CustomerServiceClient.deps.json
+D:\FieldEdge\FieldEdge\CustomerServiceClient\bin\Debug\net6.0\CustomerServiceClient.dll
+D:\FieldEdge\FieldEdge\CustomerServiceClient\bin\Debug\net6.0\CustomerServiceClient.pdb
+D:\FieldEdge\FieldEdge\CustomerServiceClient\bin\Debug\net6.0\ModelDto.dll
+D:\FieldEdge\FieldEdge\CustomerServiceClient\bin\Debug\net6.0\ModelDto.pdb
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.csproj.CopyComplete
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.dll
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\refint\CustomerServiceClient.dll
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\CustomerServiceClient.pdb
+D:\FieldEdge\FieldEdge\CustomerServiceClient\obj\Debug\net6.0\ref\CustomerServiceClient.dll
