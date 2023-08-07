@@ -1,0 +1,51 @@
+<h2>Add Customer</h2>
+<div class="customer-container">
+  <mat-form-field>
+    <mat-label>Salutation</mat-label>
+    <mat-select [formControl]="salutation" required>
+      <mat-option value="Mr.">Mr.</mat-option>
+      <mat-option value="Miss.">Miss</mat-option>
+      <mat-option value="Mrs.">Mrs.</mat-option>
+      <mat-error *ngIf="salutation.invalid">{{getfirstNameErrorMessage()}}</mat-error>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Enter your first name</mat-label>
+    <input matInput placeholder="FirstName" [formControl]="firstName" required>
+    <mat-error *ngIf="firstName.invalid">{{getfirstNameErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Enter your last name</mat-label>
+    <input matInput placeholder="LastName" [formControl]="lastName" required>
+    <mat-error *ngIf="lastName.invalid">{{getLastNameErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Enter your email</mat-label>
+    <input matInput placeholder="test@example.com" [formControl]="email" required>
+    <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Enter your gender</mat-label>
+    <input matInput placeholder="M" [formControl]="gender" required>
+    <mat-error *ngIf="gender.invalid">{{getGenderErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Enter your phone number</mat-label>
+    <input matInput placeholder="+91-4354656756" [formControl]="phoneNumber" required>
+    <mat-error *ngIf="phoneNumber.invalid">{{getPhoneNumberErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Enter your country code</mat-label>
+    <input matInput placeholder="USA" [formControl]="countryCode" required>
+    <mat-error *ngIf="countryCode.invalid">{{getCountryCodeErrorMessage()}}</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Enter your balance</mat-label>
+    <input matInput placeholder="456.99" [formControl]="balance" required>
+    <mat-error *ngIf="balance.invalid">{{getBalanceErrorMessage()}}</mat-error>
+  </mat-form-field>
+</div>
+<div class="customer-container">
+  <button mat-button (click)="addUpdateCustomer()"  mat-flat-button color="success">Save</button>
+  <button mat-button (click)="cancel()"  mat-flat-button color="warn" class="customer-control">Cancel</button>
+</div>

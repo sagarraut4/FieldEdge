@@ -1,0 +1,2 @@
+D:\VrtStudy\FieldEdge\angularapp\obj\Debug\angularapp.esproj.SuggestedBindingRedirects.cache
+D:\VrtStudy\FieldEdge\angularapp\obj\Debug\angularapp.esproj.CoreCompileInputs.cache
